@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+}
+
+#container {
+    width: 600px;
+    margin: 5% auto 5% auto;
+    border: 1px solid black;
+}
+
+#lineOne, #linetwo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.round, .diamond, .square {
+    border: 1px solid black;
+    width: 20%;
+    height: 120px;
+    margin: 5%;
+}
+
+.round {
+    border-radius: 45%;
+}
+
+.diamond {
+    transform: rotate(45deg);
+}
+
+button {
+    padding: 1%;
+}
+
+#empty {
+    margin-left: 45%;
+}
+
+.full {
+    background-color: black;
+}
